@@ -5,16 +5,16 @@ variable "region" {
 variable "application" {
   type        = string
   description = "Application Name"
-  default     = "test"
+  default     = "YOUR_APP"
 }
 
 variable "environment" {
   type        = string
   description = "Application Environment"
-  default     = "dev"
+  default     = "YOUR_STAGE"
 }
 
-
+# INSERT A NUMBER 0-9 FOR THE CIDR BLOCK
 variable "quad" {
-  default = "2"
+  default = ""
 }
