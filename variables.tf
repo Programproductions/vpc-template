@@ -18,3 +18,11 @@ variable "environment" {
 variable "quad" {
   default = ""
 }
+
+
+# CREATE A terraform.tfvars FILE WITH YOUR CREDENTIALS
+variable "access_key" {
+}
+
+variable "secret_key" {
+}
